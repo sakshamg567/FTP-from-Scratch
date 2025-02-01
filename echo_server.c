@@ -51,6 +51,9 @@ int main(){
 
          inet_ntop(AF_INET, &(client_adress.sin_addr), CLIENT_IP, INET_ADDRSTRLEN);
          printf("Client connected %s: %d\n", CLIENT_IP, ntohs(client_adress.sin_port));
+         char BUFFER[1024];
+         ssize_t bytes_received = recv(client_fd, BUFFER, sizeof(BUFFER), 0);
+         send(client_fd, BUFFER, bytes_received, 0);
       }
    }
    close(server_fd);
