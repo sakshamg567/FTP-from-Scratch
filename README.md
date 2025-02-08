@@ -113,13 +113,13 @@ QUIT
 
 ### Screenshots
 #### Server Startup
-_(Placeholder for images)_
+[!Image](./images/start.png)
 
-#### Client Interaction
-_(Placeholder for images)_
+#### Directory listing
+[!Image](./images/ls.png)
 
-#### Directory Listing
-_(Placeholder for images)_
+#### File transfer
+[!Image](./images/transfer.png)
 
 ### Future Work
 The following features are planned for future releases:
