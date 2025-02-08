@@ -113,13 +113,13 @@ QUIT
 
 ### Screenshots
 #### Server Startup
-[!Image](./images/start.png)
+![Image](./images/start.png)
 
 #### Directory listing
-[!Image](./images/ls.png)
+![Image](./images/ls.png)
 
 #### File transfer
-[!Image](./images/transfer.png)
+![Image](./images/transfer.png)
 
 ### Future Work
 The following features are planned for future releases:
